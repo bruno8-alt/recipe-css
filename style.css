@@ -1,3 +1,17 @@
+style 
+{
+font-family: 'Times New Roman', Times, serif;
+}
+
+.bodyinj, .bodyindex, .bodywow
+{    
+    background-color: white);
+    color: black;
+}
+
+
+
+
 h1 
 {
 color: black;
@@ -20,6 +34,12 @@ font-size: 20px;
 }
 
 
+a{
+    text-decoration:none;
+    color: black;
+    
+
+    }
 .fig 
 {    
     text-decoration: rgb(129, 6, 6);
@@ -34,8 +54,8 @@ font-size: 20px;
 .button1, .button2
 { 
 font-weight: bold;
-color: black;
-background-color: rgb(16, 177, 163);
+color: rgb(83, 131, 177);
+background-color: rgb(47, 94, 221);
 font-size: 20px;
 }
 
@@ -50,11 +70,28 @@ font-size: 20px;
 }
 
 
-.imgwow1, .imgwow2, .imginj1, .imginj2, .imginj3, .imginj4 
+.imgwow1, .imgwow2, .imginj1 .imginj2, .imginj3, .imginj4 
 {    
     width: 500px;
     height: auto;
 }
+
+.imginj1, .imginj3
+{    
+    margin-left: 20px;
+}
+
+.imginj2, .imginj4
+{    
+    margin-left: 560px;
+}
+
+.imginj11
+{    
+    width: 550px;
+}
+
+
 
 .description1, .description2, .description4, .description5, .wow1
 {    
@@ -63,7 +100,20 @@ font-size: 20px;
 
 .description3
 {    
-    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 50px;
     
 }
+
+
+.button1, .button2
+{    
+    border: 1px whitesmoke;
+    margin: 15px;
+    border: black;
+    border-style: initial;
+    padding-left: 5px;
+}
+
 
